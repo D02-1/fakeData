@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "title": "Beautiful",
+      "artist": "Christina Aguilera",
+      "year": 2002,
+      "cover": "",
+      "price": "6,99 Euro"
+    },
+    {
+      "title": "One",
+      "artist": "Ed Sheran",
+      "year": 2014,
+      "cover": "",
+      "price": "7,99 Euro"
+    },
+    {
+      "title": "Rose Garden",
+      "artist": "Lynn Anderson",
+      "year": "1970",
+      "cover": "",
+      "price": "6.99"
+    }
+  ],
+  "orders": [
+    {
+      "id": "df636e51-e69d-4088-bde0-eb06badbe3bc",
+      "productId": "jazz",
+      "quantity": "7"
+    },
+    {
+      "id": "f81d9914-b1d1-4e44-8f17-887830a4eb17",
+      "productId": "balade",
+      "quantity": "6"
+    }
+  ],
+  "users": [
+    {
+      "id": "ea87a0cc-d928-4729-a325-2a30636ec03d",
+      "firstName": "admin",
+      "password": "supersecret"
+    },
+    {
+      "id": "6771e79e-4c93-4a4f-ac49-fa168c427653",
+      "firstName": "Max",
+      "password": "Mustermann"
+    },
+    {
+      "id": "c4b2e283-2968-4504-834c-d5ed54f49338",
+      "firstName": "Sara",
+      "password": "Mustermann"
+    }
+  ]
+}
