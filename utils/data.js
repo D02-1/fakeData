@@ -7,9 +7,11 @@ const chance = new Chance();
 
 const userData = () => {
     // const databaseURL = `${process.env.DB_URL}/${process.env.DB_NAME}`;
-    const db = mongoose.connect("mongodb://localhost:27017/recordshop")
-        .then(() => console.log("db connected"))
-        .catch((err) => console.error("not connected", err));
+    mongoose.connect("mongodb://localhost:27017/recordshop").then(
+        () => { console.log("db connected");},
+        err => { console.log("not connected", err);}
+      );
+
 
     const users = [];
 
